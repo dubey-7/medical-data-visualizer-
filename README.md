@@ -1,15 +1,11 @@
-# 🏥 Medical Data Visualizer
+## 🩺 Medical Data Visualizer
 
-## 📌 Project Overview
+This project analyzes medical examination data to explore the relationship between cardiovascular disease ❤️, body measurements, blood test results, and lifestyle habits.
+Using Python, Pandas, Matplotlib, and Seaborn, the dataset is cleaned, processed, and visualized to uncover meaningful health insights.
 
-This project analyzes medical examination data to explore the relationship between:
+## 📌 Features
 
-- Cardiovascular disease
-- Body measurements
-- Blood markers
-- Lifestyle habits
-
-The dataset was collected from real medical examinations.
+<img width="598" height="175" alt="image" src="https://github.com/user-attachments/assets/948e2ba7-8dcc-48ec-ae11-67df92eba52e" />
 
 ---
 
@@ -40,12 +36,18 @@ Each row represents a patient and columns include:
 - cardio
 
 ---
+## 📊 Visualizations
+1️⃣ Categorical Plot
+Shows counts of good and bad health outcomes for patients with and without cardiovascular disease.
 
-# 🔢 Calculations Performed
+2️⃣ Heatmap
+Displays correlations between medical variables after data cleaning.
 
-## 1️⃣ Body Mass Index (BMI)
+## 🔢 Calculations Performed
 
-### Formula:
+### 1️⃣ Body Mass Index (BMI)
+
+#### Formula:
 
 \[
 BMI = \frac{Weight (kg)}{Height (m)^2}
@@ -72,45 +74,7 @@ For better analysis:
 
 ---
 
-# 📈 Visualizations
-
-## 1️⃣ Categorical Plot
-
-Shows count of:
-
-- cholesterol
-- gluc
-- smoke
-- alco
-- active
-- overweight
-
-Separated by:
-
-- cardio = 0 (No heart disease)
-- cardio = 1 (Heart disease)
-
-Purpose:
-To analyze lifestyle & medical risk factors in heart disease patients.
-
----
-
-## 2️⃣ Heatmap
-
-Steps performed:
-
-- Removed incorrect blood pressure values  
-  (diastolic ≤ systolic)
-- Removed extreme outliers (2.5% - 97.5%)
-- Calculated correlation matrix
-- Displayed lower triangular heatmap
-
-Purpose:
-To identify relationships between medical variables.
-
----
-
-# 🧠 Key Concepts Used
+## 🧠 Key Concepts Used
 
 - Feature Engineering
 - Data Cleaning
@@ -121,7 +85,7 @@ To identify relationships between medical variables.
 
 ---
 
-# 🚀 How to Run
+## 🚀 How to Run
 
 ```bash
 python main.py
